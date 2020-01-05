@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#board{
+    display:grid;
+    grid-template: 100px 100px 100px / 100px 100px 100px ;
+}
+.field{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    border:1px solid black;
+}
+.hidden{
+    display:none !important;
+}
+form{
+    display:flex;
+    flex-direction: column;
+}
+form>*{
+    resize: none;
+    width: 30vw;
+    height:3rem;
+    font-size: 3rem;
+}
+form>button{
+    background: linear-gradient(45deg, rgb(31, 163, 31), rgb(40, 165, 29));
+    height:4rem;
+}

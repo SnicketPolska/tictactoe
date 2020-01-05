@@ -8,9 +8,23 @@
     <title>TicTacToe</title>
 </head>
 <body>
-    
-
-
+    <h1 id="info"></h1>
+    <div id="board" class="hidden">
+        <div class="field" id="field1" data-index="0"></div>
+        <div class="field" id="field2" data-index="1"></div>
+        <div class="field" id="field3" data-index="2"></div>
+        <div class="field" id="field4" data-index="3"></div>
+        <div class="field" id="field5" data-index="4"></div>
+        <div class="field" id="field6" data-index="5"></div>
+        <div class="field" id="field7" data-index="6"></div>
+        <div class="field" id="field8" data-index="7"></div>
+        <div class="field" id="field9" data-index="8"></div>
+    </div>
+    <form id="setup">
+        <textarea name="firstName" id="firstName" cols="15" rows="1" placeholder="First player"></textarea>
+        <textarea name="secondName" id="secondName" cols="15" rows="1" placeholder="Second player"></textarea>
+        <button type="submit" id="submit">START</button>
+    </form>
     <script src="script/main.js"></script>
 </body>
 </html>
